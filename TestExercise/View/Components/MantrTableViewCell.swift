@@ -57,7 +57,7 @@ class MantrTableViewCell: UITableViewCell {
         return playStackView
     }()
     
-    private func setupCell(mantra: Mantra) {
+     func setupCell(mantra: Mantra) {
         configureView()
         matnrNameLabel.text = mantra.name
         durationLabel.text = mantra.duration.toMinutesSecondsString()
